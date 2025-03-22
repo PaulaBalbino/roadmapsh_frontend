@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Paula Balbino">
+	<meta name="description" content="this page contains the form to contact the Little Taco Shop">
+
+	<title>Little Taco Shop</title>
+	<link rel="icon" href="taco.png" type="image/x-icon">
+	<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Contact Us</h1>
+		<nav aria-label="primary-navigation">
+			<ul>
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#about">About LTS</a>
+				</li>
+				<li>
+					<a href="#menu">Our Menu</a>
+				</li>
+				<li>
+					<a href="#hours">Store Hours</a>
+				</li>
+			</ul>
+		</nav>
+
+		<img src="img/tacos_close_up_400x260.png" alt="tacos on a tray" title="tacos on a tray" width="400"
+			height="267">
+		<figure>
+			<figcaption>Little Taco Shop Tacos!</figcaption>
+		</figure>
+		<hr>
+
+		<article id="contact">
+			<h2>Our Contact Form</h2>
+			<form action="https://httpbin.org/get" method="get">
+				<fieldset>
+					<legend>Send Us a Message</legend>
+					<p>
+						<label for="firstName">Name:</label>
+						<input type="text" name="firstName" id="firstName" placeholder="your name" autocomplete="on"
+							required autofocus>
+					</p>
+					<p>
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" placeholder="your email" autocomplete="on">
+					</p>
+
+					<label for="message">Your message:</label>
+					<br>
+					<textarea name="message" id="message" cols="30" rows="10"
+						placeholder="Type your message here"></textarea>
+				</fieldset>
+				<br>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+		</article>
+		<br>
+
+		<h2>Our Location</h2>
+		<address>
+			555 Taco Temptation Lane, Suite T<br>
+			Kansas City, MO 55555-5555
+		</address>
+		<br>
+		<em>Phone:</em> <a href="tel:5555555555">555-555-5555</a>
+
+	</header>
+	<footer>
+		<p>
+			<a href="#">Back to Top</a>
+		</p>
+		<hr>
+		<p> &copy; <a href="about.html">The Little Taco Shop</a></p>
+	</footer>
+</body>
+
+</html>
