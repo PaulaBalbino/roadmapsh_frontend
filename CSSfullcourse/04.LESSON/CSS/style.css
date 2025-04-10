@@ -1,0 +1,27 @@
+/* CSS Units */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+}
+
+h1 {
+	border: 2px dashed red;
+	width: 50%;
+
+}
+
+main {
+
+	font-size: 2rem;
+}
+
+p {
+	font-size: 2rem;
+	width: 40ch;
+}
